@@ -1,0 +1,249 @@
+@media only screen and (max-width: 991px) {
+  .line:after  
+  {
+    display: none;
+  }
+  
+}
+
+
+
+/*  ( 300px to 640px) */
+@media only screen 
+and (min-width: 300px)
+and (max-width: 640px) {
+  .head{
+    font-size: 3em;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .headPara{
+    left: 50%;
+    transform: translate(-50%);
+    top: 271px;
+    padding: 47px;
+    text-align: center;
+    line-height: 38px;
+    word-spacing: 8px;
+  }
+  .newRow{
+    text-align: center;
+    padding-left: 0px;
+  }
+  .menuSubText{
+    padding-bottom: 0px;
+  }
+  .price{
+    padding-bottom: 20px;
+  }
+  .load{
+    position: absolute;
+    float: left;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .dishesImg div {
+    
+    text-align: center;
+  
+  }
+  .big img{
+    width: -webkit-fill-available;
+    height: 270px;
+  }
+  .small img{
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  .heading::after{
+    width: -webkit-fill-available;
+    margin-left: 0px;
+  }
+  .dots{
+    text-align: center;
+  }
+  nav a{
+    display: block;
+    padding-left: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 700;
+  } 
+
+  .mainLogo{
+    margin: 20px;
+    text-align: center;
+  }
+  .col-lg-3{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .footerLogo{
+    margin-right: -50px!important;
+
+  }
+  .logoExt{
+    left: 0px;
+  }
+} 
+
+
+
+/* Medium devices (landscape tablets, 640px to 991px) */
+@media only screen 
+  and (min-width: 641px) 
+  and (max-width: 991px) {
+    .newRow{
+      text-align: center;
+      float: left;
+      width: 50%;
+      padding-left: 8%;
+    }
+    .price{
+      margin-bottom: 40px;
+    }
+    .load{
+      width: 150px;
+      float: none;
+      position: absolute;
+      left: 50%;
+      
+      transform: translate(75%);
+      margin-top: 60px;
+    }
+    
+    
+    .menuSubText,.price,.line{
+        display: inline;
+       
+    }
+    .menuText{
+      margin-top: 20px;
+    }
+    .col-md-3{
+      width: 50%;
+      float: left;
+      text-align: center;
+    }
+    .dots{
+      float: right;
+      width: 18%;
+    }
+    .big img{
+      width: 50%;
+    }
+    .small img{
+      width: 50%;
+    }
+    .col-lg-3{
+      float: left;
+      text-align: center;
+    }
+    .col-lg-3:last-child{
+      width:100%;
+    }
+    .head{
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      font-size: 60px;
+    }
+    .headPara{
+      margin-top: 20px;
+      text-align: center;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    nav a{
+      padding-left: 20px;
+      float: right;
+      font-weight: 700;
+    }
+    .mainLogo{
+      margin: 10px;
+    }
+  }
+  /* larger screen (landscape tablets, 992px to 1200px) */
+  @media only screen
+  and (min-width: 992px)
+  and (max-width: 1199px) {
+    .head{
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+    }
+    .headPara{
+      left: 50%;
+      transform: translate(-50%);
+      text-align: center;
+      
+    }
+    .load{
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      float: none;
+    }
+    .load-col{
+      width: 100%!important;
+    }
+    .dishesImg img{
+      width: auto;
+    }
+    .dishesImg p {
+      padding: 10px 0px 5px 0px
+    }
+    .dots{
+      float: none;
+      display: block;
+    }
+    .big img{
+      width: 50%;
+    }
+    .small img{
+      width: 50%;
+    }
+    .col-lg-3{
+      text-align: center;
+      float: left;
+    }
+    .navbar{
+      padding-top: 20px;
+    }
+    nav a{
+      font-weight: 700;
+    }
+  }
+  @media only screen and (min-width:1200px){
+    .head{
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      font-size: 60px;
+    }
+    .headPara{
+      margin-top: 20px;
+      text-align: center;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .navbar{
+    padding-top: 20px;
+  }
+  nav a{
+    float: right;
+    padding-left: 60px;
+    font-weight: 700;
+  }
+  .load-col{
+    width: 100%!important;
+  }
+  .load{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    float: none;
+  }
+}
