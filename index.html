@@ -2,6 +2,12 @@
 <html>
 <head>
     <title>Resto</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includedContent").load("b.html"); 
+    });
+    </script> 
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -23,7 +29,7 @@
     <div class="wrap-1">
         <div class="container navbar">
             
-                <div class="col-md-4 mainLogo">
+                <div   id="includedContent" class="col-md-4 mainLogo">
                     <a href="index.html">
                     <span><img src="Resources/logo/Resto.jpg"></span>
                         <i><img src="Resources/logo/Resto Logo extn.png"></i>
